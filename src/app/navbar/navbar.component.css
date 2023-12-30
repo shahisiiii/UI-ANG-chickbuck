@@ -5,7 +5,7 @@
 nav{
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
     align-items: baseline;
     /* padding: 1rem; */
 }
@@ -13,9 +13,17 @@ nav{
 .nav-links{
     font-size: var(--size-base);
     letter-spacing: rem;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .nav-links:hover{
     
+}
+
+
+#nav-link{
+    display: flex;
+    align-items: baseline;
+    gap:1rem;
+
 }
