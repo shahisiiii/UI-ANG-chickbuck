@@ -1,0 +1,21 @@
+.nav-logo{
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-items: baseline;
+    /* padding: 1rem; */
+}
+
+.nav-links{
+    font-size: var(--size-base);
+    letter-spacing: rem;
+    font-weight: 300;
+}
+
+.nav-links:hover{
+    
+}
