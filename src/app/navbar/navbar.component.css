@@ -4,6 +4,7 @@
 
 nav{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 3rem;
     align-items: baseline;
@@ -28,4 +29,26 @@ nav{
     gap:1rem;
 
 }
+.right-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.links{
+    display: flex;
+    align-items: baseline;
+    gap: 3rem;
+   
+}
 
+.cart{
+    width:45px;
+}
+.signup{
+    font-size: var(--size-base);
+    font-weight: 400;
+}
+.divider{
+    height:  30px;
+    border-right: rgb(142, 142, 142) solid 1px;
+}
