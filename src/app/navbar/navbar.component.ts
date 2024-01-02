@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBucket,faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-
-
+  faBucket = faBucket;
+  faUserPlus = faUserPlus;
   
 }

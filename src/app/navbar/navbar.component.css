@@ -14,6 +14,7 @@ nav{
     font-size: var(--size-base);
     letter-spacing: rem;
     font-weight: 200;
+
 }
 
 .nav-links:hover{
@@ -27,3 +28,4 @@ nav{
     gap:1rem;
 
 }
+
